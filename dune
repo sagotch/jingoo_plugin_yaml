@@ -1,0 +1,7 @@
+(executable
+  (name jingoo_plugin_yaml)
+  (libraries jingoo yaml)
+  (flags -linkall)
+  (modes (native plugin))
+  (modules jingoo_plugin_yaml)
+)
